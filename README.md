@@ -79,7 +79,22 @@ Below is the workflow diagram used in this project:
    pip install -r requirements.txt
    ```
 
-4. Run the application:
+4. Set up the environment file:
+
+- Create a .env file in the root directory:
+
+  ```bash
+  touch .env
+  ```
+
+- Add your API keys to the .env file:
+
+  ```bash
+  OPENAI_API_KEY=your_openai_api_key_here
+  TAVILY_API_KEY=your_tavily_api_key_here
+  ```
+
+5. Run the application:
 
    ```bash
    python main.py
