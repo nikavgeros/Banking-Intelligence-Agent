@@ -6,7 +6,7 @@ This project implements a **Banking Intelligence Agent** that leverages LangGrap
 
 Below is the workflow diagram used in this project:
 
-![Workflow Diagram](assets/graph-diagram.png)
+![Workflow Diagram](src/assets/graph-diagram.png)
 
 ## Features
 
