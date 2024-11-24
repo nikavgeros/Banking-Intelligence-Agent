@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# C extensions
+*.so
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+
+# Logs and debugging
+*.log
+*.out
+*.err
+*.pid
+*.gz
+
+# Cache
+.cache/
+*.egg-info/
+*.egg
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.wheel
+*.tar.gz
+*.zip
+
+# PyInstaller
+# Usually these are written by a python script from the command line
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.orig
+*.bak
+*.tmp
+*.DS_Store
+*.iml
+
+# JetBrains IDEs
+*.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
