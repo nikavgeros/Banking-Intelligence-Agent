@@ -2,6 +2,12 @@
 
 This project implements a **Banking Intelligence Agent** that leverages LangGraph to process user queries, retrieve relevant information from a mock database, and interact with policies and tools to provide actionable insights.
 
+## Workflow Diagram
+
+Below is the workflow diagram used in this project:
+
+![Workflow Diagram](assets/graph-diagram.png)
+
 ## Features
 
 - **Query Processing**: Use LangChain to understand and process user queries.
