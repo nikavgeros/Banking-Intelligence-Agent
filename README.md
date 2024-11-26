@@ -262,6 +262,12 @@ Mock data inserted successfully.
    For more details, you can visit [Forbes Advisor](https://www.forbes.com/advisor/banking/savings/savings-account-rates-today-11-22-24/) for a comprehensive guide on the best high-yield savings accounts and current rates.
    ```
 
+### Further Improvements
+
+- **Vector Database Integration**: Replace the in-memory implementation of the `VectorStoreRetriever` with a vector database such as Pinecone or Milvus. This will enable efficient similarity search, enhanced scalability, and better management of embeddings and metadata. It will also reduce costs by minimizing calls to OpenAI for repeated embedding generations and allow policies to be read and stored once for efficient retrieval.
+
+- **Add More Assistants**: Introduce additional specialized assistants for areas such as investment planning, regulatory compliance, or customer support. These assistants can work independently or collaboratively to provide holistic insights.
+
 ### Interactive Approvals
 
 When tool actions are invoked (e.g., `send $50` or `resolve alerts`), the system prompts for user approval. Approve by typing `y` or provide alternative instructions.

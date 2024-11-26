@@ -9,7 +9,7 @@ from src.tools.user_info import fetch_user_information
 from src.utils.prompt_templates import get_primary_assistant_prompt
 
 
-llm = ChatOpenAI(model="gpt-4-turbo-preview")
+llm = ChatOpenAI(model="gpt-4o")
 primary_assistant_prompt = get_primary_assistant_prompt()
 assistant_runnable = primary_assistant_prompt | llm.bind_tools(safe_tools + sensitive_tools)
 
